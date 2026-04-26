@@ -9,14 +9,11 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red)
 ![Stars](https://img.shields.io/github/stars/yourusername/yourrepo?style=social)
 
-**中文** | [English](#english)
-
 专注于 VLM、VLA、世界模型及通用具身智能等方向，收录前沿论文、开源代码与数据集，追踪从感知到决策的下一代智能体技术。
 
 A curated collection for multimodal intelligence research, covering VLMs, VLAs, World Models, and embodied AI — tracking next-generation agent technologies from perception to decision-making, with a focus on papers, code, and datasets.
 
-如果本仓库对你有帮助，欢迎 Star ⭐ 或分享 ⬆️，感谢支持！
-
+如果本仓库对你有帮助，欢迎 Star ⭐ 或分享 ⬆️，感谢支持！  
 If you find this repository helpful, please consider Stars ⭐ or Sharing ⬆️. Thanks.
 
 </div>
@@ -25,25 +22,28 @@ If you find this repository helpful, please consider Stars ⭐ or Sharing ⬆️
 
 ## 📌 News
 
-- **2026.4**: 仓库初始化，整合 VLM 与 VLA 两大方向，持续更新中。
-- **2026.4**: Initial release — integrating VLM and VLA collections, continuously updated.
+- **2026.4**: 全面更新 VLM（新增 SigLIP/SigLIP2、Qwen2.5-VL、Qwen3-VL、InternVL3、Molmo、Emu3 等），新增世界模型与具身 AI 专题，补全训练数据集与评估 Benchmark。
+- **2026.4**: Major update — added SigLIP/SigLIP2, Qwen2.5-VL, Qwen3-VL, InternVL3, Molmo, Emu3 to VLMs; launched World Models and Embodied AI collections with full datasets and benchmarks.
 
 ---
 
 ## 📂 Collection Index
 
-| 方向 / Topic　　　　　　　　　　　　　　　　| 描述 / Description　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　| 链接 / Link　　　　　　　　　　　　　　　　　　　　　　　　　 |
-| :-------------------------------------------:| :--------------------------------------------------------------------------------------------| :-------------------------------------------------------------:|
-| 🖼️ **Vision Language Models (VLMs)**　　　　| 视觉语言模型：感知、理解与多模态推理<br>Perception, understanding, and multimodal reasoning | [📄 View](./mdfiles/Awesome-Vision-Language-Models.md)　　　　|
-| 🤖 **Vision Language Action Models (VLAs)** | 视觉语言动作模型：从感知到物理决策<br>From perception to physical decision-making　　　　　 | [📄 View](./mdfiles/Awesome-Vision-Language-Action-Models.md) |
-| 🌍 **World Models** *(coming soon)*　　　　 | 世界模型：环境建模与预测性规划<br>Environment modeling and predictive planning　　　　　　　| 🔜　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|
-| 🧠 **Embodied AI** *(coming soon)*　　　　　| 通用具身智能：感知、规划与执行的统一<br>Unified perception, planning, and execution|🔜|
+| Topic　　　　　　　　　　　　　　　　　　　 | Description　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　| Link　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|
+| :--------------------------------------------| :-------------------------------------------------------------------------------------------| :-------------------------------------------------------------:|
+| 🖼️ **Vision Language Models (VLMs)**　　　　| 视觉语言模型：感知、理解与多模态推理 / Perception, understanding, and multimodal reasoning | [📄 View](./mdfiles/Awesome-Vision-Language-Models.md)　　　　|
+| 🤖 **Vision Language Action Models (VLAs)** | 视觉语言动作模型：从感知到物理决策 / From perception to physical decision-making　　　　　 | [📄 View](./mdfiles/Awesome-Vision-Language-Action-Models.md) |
+| 🌍 **World Models**　　　　　　　　　　　　 | 世界模型：环境建模与预测性规划 / Environment modeling and predictive planning　　　　　　　| [📄 View](./mdfiles/Awesome-World-Models.md)　　　　　　　　　|
+| 🧠 **Embodied AI**　　　　　　　　　　　　　| 通用具身智能：感知、规划与执行的统一 / Unified perception, planning, and execution　　　　 | [📄 View](./mdfiles/Awesome-Embodied-AI.md)　　　　　　　　　 |
 
 ---
 
 ## 🗺️ Research Landscape
 
 ```
+Perception ──► Understanding ──► Reasoning ──► Planning ──► Action
+    │               │                │              │           │
+   VLMs            VLMs 
 Perception ──► Understanding ──► Reasoning ──► Planning ──► Action
     │               │                │              │           │
    VLMs            VLMs             VLMs           VLAs        VLAs
@@ -59,21 +59,38 @@ Perception ──► Understanding ──► Reasoning ──► Planning ──
 
 ## 🔖 Quick Links
 
-- [Awesome VLMs →](./Awesome-Vision-Language-Models.md)
-  - Contrastive Pre-training (CLIP, ALIGN, Florence)
-  - Generative VLMs (Flamingo, BLIP-2, LLaVA)
-  - Instruction-Tuned VLMs (InternVL, Qwen2-VL, LLaVA-1.5)
-  - Grounding & Localization (KOSMOS-2, Grounding DINO)
-  - Benchmarks (MMMU, MMBench, SeedBench)
-  - Applications: Medical, Document, Video, Embodied
+- [Awesome VLMs →](ed VLMs (LLaVA series, InternVL3, Qwen3-VL, Qwen2.5-VL, Idefics3)
+  - Grounding & Localization (KOSMOS-2, Grounding DINO 1.5, SAM2)
+  - Efficient VLMs (PaliGemma2, Phi-4-Vision, SmolVLM)
+  - Proprietary VLMs (GPT-4o, Gemini 2.0, Claude 3.5)
+  - Training Datasets (LAION-5B, DataComp, MMC4, PixMo)
+  - Benchmarks (MMMU-Pro, MMStar, MathVista, Video-MME)
 
-- [Awesome VLAs →](./Awesome-Vision-Language-Action-Models.md)
+- [Awesome VLAs →](./mdfiles/Awesome-Vision-Language-Action-Models.md)
   - Foundational Policies (ACT, Diffusion Policy, RT-1, SayCan)
-  - VLA Base Models (RT-2, OpenVLA, π0)
+  - VLA Base Models (RT-2, OpenVLA, π0, π0.5)
   - Generalist Policies (Octo, CrossFormer)
   - Manipulation, Navigation, Dexterous Control
   - RL & Self-Improvement (OpenVLA-OFT, VLARL)
   - Datasets & Benchmarks (Open X-Embodiment, LIBERO, CALVIN)
+
+- [Awesome World Models →](./mdfiles/Awesome-World-Models.md)
+  - Model-Based RL (DreamerV3, TD-MPC2, MuZero, IRIS)
+  - JEPA (I-JEPA, V-JEPA, V-JEPA2)
+  - Video Generation (Sora, Cosmos, Genie2, DIAMOND)
+  - Autonomous Driving (GAIA-1, DriveDreamer, Vista, OccWorld)
+  - Robot World Models (UniSim, GR-1, UniPi, Pandora)
+  - Benchmarks (VBench, EvalCrafter, nuPlan, CARLA)
+
+- [Awesome Embodied AI →](./mdfiles/Awesome-Embodied-AI.md)
+  - Perception (EmbodiedScan, ConceptFusion, AnyGrasp)
+  - Navigation (NavGPT2, ViNT, NoMaD, CoW)
+  - Manipulation (RVT-2, Diffusion Policy, 3D Diffusion Policy)
+  - Task Planning (SayCan, Code-as-Policies, Voyager, ReKep)
+  - General Agents (Gato, OpenVLA, π0, Octo, LEO)
+  - Humanoid (Figure02, HumanPlus, OmniH2O, DexVLA)
+  - Simulators (Isaac Lab, ManiSkill3, Habitat 3.0, Genesis)
+  - Benchmarks (CALVIN, MetaWorld, EmbodiedBench, BEHAVIOR-1K)
 
 ---
 
