@@ -13,7 +13,7 @@
 
 A curated collection for multimodal intelligence research, covering VLMs, VLAs, World Models, and embodied AI — tracking next-generation agent technologies from perception to decision-making, with a focus on papers, code, and datasets.
 
-如果本仓库对你有帮助，欢迎 Star ⭐ 或分享 ⬆️，感谢支持！  
+如果本仓库对你有帮助，欢迎 Star ⭐ 或分享 ⬆️，感谢支持！
 If you find this repository helpful, please consider Stars ⭐ or Sharing ⬆️. Thanks.
 
 </div>
@@ -29,21 +29,18 @@ If you find this repository helpful, please consider Stars ⭐ or Sharing ⬆️
 
 ## 📂 Collection Index
 
-| Topic　　　　　　　　　　　　　　　　　　　 | Description　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　| Link　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|
-| :--------------------------------------------| :-------------------------------------------------------------------------------------------| :-------------------------------------------------------------:|
-| 🖼️ **Vision Language Models (VLMs)**　　　　| 视觉语言模型：感知、理解与多模态推理 / Perception, understanding, and multimodal reasoning | [📄 View](./mdfiles/Awesome-Vision-Language-Models.md)　　　　|
-| 🤖 **Vision Language Action Models (VLAs)** | 视觉语言动作模型：从感知到物理决策 / From perception to physical decision-making　　　　　 | [📄 View](./mdfiles/Awesome-Vision-Language-Action-Models.md) |
-| 🌍 **World Models**　　　　　　　　　　　　 | 世界模型：环境建模与预测性规划 / Environment modeling and predictive planning　　　　　　　| [📄 View](./mdfiles/Awesome-World-Models.md)　　　　　　　　　|
-| 🧠 **Embodied AI**　　　　　　　　　　　　　| 通用具身智能：感知、规划与执行的统一 / Unified perception, planning, and execution　　　　 | [📄 View](./mdfiles/Awesome-Embodied-AI.md)　　　　　　　　　 |
+| Topic | Description | Link |
+|:--|:--|:--:|
+| 🖼️ **Vision Language Models (VLMs)** | 视觉语言模型：感知、理解与多模态推理 / Perception, understanding, and multimodal reasoning | [📄 View](./mdfiles/Awesome-Vision-Language-Models.md) |
+| 🤖 **Vision Language Action Models (VLAs)** | 视觉语言动作模型：从感知到物理决策 / From perception to physical decision-making | [📄 View](./mdfiles/Awesome-Vision-Language-Action-Models.md) |
+| 🌍 **World Models** | 世界模型：环境建模与预测性规划 / Environment modeling and predictive planning | [📄 View](./mdfiles/Awesome-World-Models.md) |
+| 🧠 **Embodied AI** | 通用具身智能：感知、规划与执行的统一 / Unified perception, planning, and execution | [📄 View](./mdfiles/Awesome-Embodied-AI.md) |
 
 ---
 
 ## 🗺️ Research Landscape
 
 ```
-Perception ──► Understanding ──► Reasoning ──► Planning ──► Action
-    │               │                │              │           │
-   VLMs            VLMs 
 Perception ──► Understanding ──► Reasoning ──► Planning ──► Action
     │               │                │              │           │
    VLMs            VLMs             VLMs           VLAs        VLAs
@@ -59,7 +56,10 @@ Perception ──► Understanding ──► Reasoning ──► Planning ──
 
 ## 🔖 Quick Links
 
-- [Awesome VLMs →](ed VLMs (LLaVA series, InternVL3, Qwen3-VL, Qwen2.5-VL, Idefics3)
+- [Awesome VLMs →](./mdfiles/Awesome-Vision-Language-Models.md)
+  - Contrastive Pre-training (CLIP, SigLIP, SigLIP2, EVA-CLIP, MetaCLIP)
+  - Generative VLMs (Flamingo, BLIP-2, Emu3, Molmo)
+  - Instruction-Tuned VLMs (LLaVA series, InternVL3, Qwen3-VL, Qwen2.5-VL, Idefics3)
   - Grounding & Localization (KOSMOS-2, Grounding DINO 1.5, SAM2)
   - Efficient VLMs (PaliGemma2, Phi-4-Vision, SmolVLM)
   - Proprietary VLMs (GPT-4o, Gemini 2.0, Claude 3.5)
