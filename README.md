@@ -32,12 +32,12 @@ If you find this repository helpful, please consider Stars ⭐ or Sharing ⬆️
 
 ## 📂 Collection Index
 
-| 方向 / Topic　　　　　　　　　　　　　　　　| 描述 / Description　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　| 链接 / Link　　　　　　　　　　　　　　　　　　　　　　 |
-| :-------------------------------------------:| :--------------------------------------------------------------------------------------------| :-------------------------------------------------------:|
-| 🖼️ **Vision Language Models (VLMs)**　　　　| 视觉语言模型：感知、理解与多模态推理<br>Perception, understanding, and multimodal reasoning | [📄 View](./midfiles/Awesome-Vision-Language-Models.md) |
-| 🤖 **Vision Language Action Models (VLAs)** | 视觉语言动作模型：从感知到物理决策<br>From perception to physical decision-making　　　　　 | [📄 View](./midfiles/Awesome-Vision-Language-Action-Models.md)　 |
-| 🌍 **World Models** *(coming soon)*　　　　 | 世界模型：环境建模与预测性规划<br>Environment modeling and predictive planning　　　　　　　| 🔜　　　　　　　　　　　　　　　　　　　　　　　　　　　|
-| 🧠 **Embodied AI** *(coming soon)*　　　　　| 通用具身智能：感知、规划与执行的统一<br>Unified perception, planning, and execution　　　　 | 🔜　　　　　　　　　　　　　　　　　　　　　　　　　　　|
+| 方向 / Topic　　　　　　　　　　　　　　　　| 描述 / Description　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　| 链接 / Link　　　　　　　　　　　　　　　　　　　　　　　　　　|
+| :-------------------------------------------:| :--------------------------------------------------------------------------------------------| :--------------------------------------------------------------:|
+| 🖼️ **Vision Language Models (VLMs)**　　　　| 视觉语言模型：感知、理解与多模态推理<br>Perception, understanding, and multimodal reasoning | [📄 View](./mdfiles/Awesome-Vision-Language-Models.md)　　　　 |
+| 🤖 **Vision Language Action Models (VLAs)** | 视觉语言动作模型：从感知到物理决策<br>From perception to physical decision-making　　　　　 | [📄 View](./mdfiles/Awesome-Vision-Language-Action-Models.md) |
+| 🌍 **World Models** *(coming soon)*　　　　 | 世界模型：环境建模与预测性规划<br>Environment modeling and predictive planning　　　　　　　| 🔜　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 |
+| 🧠 **Embodied AI** *(coming soon)*　　　　　| 通用具身智能：感知、规划与执行的统一<br>Unified perception, planning, and execution　　　　 | 🔜　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 |
 
 ---
 
