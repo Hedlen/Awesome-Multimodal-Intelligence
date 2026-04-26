@@ -1,6 +1,6 @@
 <div align="center">
 <br>
-<img src="https://allenai.org/static/images/embodied-ai-hero.jpg" width="700px">
+<image src="https://github.com/OpenDriveLab/AgiBot-World/raw/main/assets/teaser.gif" width="900px" height="300px">
 <br>
 </div>
 
