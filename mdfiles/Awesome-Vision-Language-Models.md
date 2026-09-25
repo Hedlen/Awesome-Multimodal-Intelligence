@@ -194,6 +194,7 @@ If you find this repository helpful, please consider Stars ⭐ or Sharing ⬆️
 #### Video Understanding
 | Title | Presentation | Paper page | Project page | Code base | Affiliation | Description |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Spatial-Interactor | - | [arXiv2026](https://arxiv.org/abs/2609.23038) | [Project](https://zju-omniai.github.io/Spatial-Interactor/) | [Code](https://github.com/ZJU-OmniAI/Spatial-Interactor) | Zhejiang University, SAP | Learns local state transitions and long-horizon spatial reasoning from interaction trajectories with LSI-108K, SFT, and on-policy distillation. |
 | Video-LLaVA | - | [arXiv](https://arxiv.org/abs/2311.10122) | [Demo](https://huggingface.co/spaces/LanguageBind/Video-LLaVA) | [Code](https://github.com/PKU-YuanGroup/Video-LLaVA) | PKU | Unifies visual representations for images and videos to empower LLMs with video understanding capabilities. |
 | VideoChat | - | [arXiv](https://arxiv.org/abs/2305.06355) | [Demo](https://huggingface.co/spaces/OpenGVLab/VideoChat) | [Code](https://github.com/OpenGVLab/Ask-Anything) | OpenGVLab | Chat-centric video understanding system combining video foundation models with LLMs for temporal reasoning. |
 | TimeChat | - | [CVPR2024](https://arxiv.org/abs/2312.02051) | - | [Code](https://github.com/RenShuhuai-Andy/TimeChat) | PKU | A time-sensitive multimodal LLM for long video understanding with timestamp-aware frame encoding. |
