@@ -74,6 +74,7 @@ If you find this repository helpful, please consider Stars ⭐ or Sharing ⬆️
 | Open-Sora-Plan | - | - | - | [Code](https://github.com/PKU-YuanGroup/Open-Sora-Plan) | PKU | Open-source video generation framework; CausalVideoVAE with masked diffusion transformer. |
 | HunyuanVideo | - | [arXiv](https://arxiv.org/abs/2412.03603) | [Project](https://aivideo.hunyuan.tencent.com/) | [Code](https://github.com/Tencent/HunyuanVideo) | Tencent | Open-source video generation model with 13B parameters; strong temporal consistency and motion quality. |
 | Wan | - | [arXiv](https://arxiv.org/abs/2503.20314) | [Project](https://wan-video.github.io/) | [Code](https://github.com/Wan-Video/Wan2.1) | Alibaba | Open-source video generation with strong physical plausibility; supports text-to-video and image-to-video. |
+| FlockWorld | - | [NeurIPS2026](https://arxiv.org/abs/2610.34564) | - | [Code](https://github.com/wangyz1999/flockworld) | USC | Population-scale multi-agent video world model built on a Boids artificial life environment; FlockDiT jointly generates synchronized egocentric videos for multiple agents from their actions. |
 
 ### Autonomous Driving World Models
 | Title | Presentation | Paper page | Project page | Code base | Affiliation | Description |
